@@ -1,349 +1,262 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="title" content="Обучение пилатес для всех желающих">
-    <meta name="description" content="Обучение пилатес в Москве">
-    <title>Обучение пилатес</title>
-
-    <link rel="stylesheet" href="styles/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Обучение Пилатес — премиум-академия</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
 
-    <header class="header">
-        <div class="container header__inner">
-            <a href="#" class="logo">CoreFlow</a>
+  <!-- ===== HERO WITH PARALLAX ===== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg" id="heroBg"></div>
+    <div class="hero-overlay"></div>
+    <div class="container">
+      <h1>ОБУЧЕНИЕ<br>ПИЛАТЕС</h1>
+      <p class="subhead">Онлайн-курс для инструкторов от Елены Васильевой, который даст вам основы упражнений и научит методам разработки тренировок по системе Пилатес.</p>
+      <a href="#" class="btn">Попробовать бесплатно</a>
+    </div>
+    <div class="scroll-indicator">
+      <span>Листайте</span>
+      <div class="line"></div>
+    </div>
+  </section>
 
-            <div class="getintouch">
-                <a href="#">+7 999 123-45-67</a>
-                <a href="#">mail@example.com</a>
-            </div>
-
-            <nav class="nav" id="nav">
-                <ul class="nav__list">
-                <li class="nav__item"><a href="#idElement1" class="nav__link">О компании</a></li>
-                <li class="nav__item"><a href="#idElement2" class="nav__link">Контакты</a></li>
-                <li class="nav__item"><a href="#idElement3" class="nav__link">Отзывы</a></li>
-                </ul>
-            </nav>
-
-            <button class="hamburger" id="hamburger" aria-label="Открыть меню" aria-expanded="false" aria-controls="nav">
-                <span class="hamburger__line"></span>
-                <span class="hamburger__line"></span>
-                <span class="hamburger__line"></span>
-            </button>
+  <!-- ===== О КОМПАНИИ WITH IMAGE ===== -->
+  <section>
+    <div class="float-element float-1"></div>
+    <div class="container">
+      <div class="about-layout">
+        <div class="reveal">
+          <h2>О нашей компании</h2>
+          <p class="subhead" style="max-width: 100%;">Наша академия обучает пилатесу, приглашая на курсы как новичков, так и опытных инструкторов. Учебная программа включает теоретические занятия по истории и принципам метода, а также практическую подготовку. Современное оборудование и методы обеспечивают нашим студентам максимальную пользу от обучения.</p>
         </div>
-    </header>
-
-   <section class="intro">
-        <div class="container">
-            <div class="intro_txt">
-                <h1 id="output"></h1>
-                <p>Онлайн курс для инструкторов от Елены Васильевой, который даст вам основы упражнений и научит методам разработки тренировок по системе Пилатес.</p>
-                <a href="#" class="blick-animation" id="openFormBtn">Попробовать бесплатно</a>
-
-                <div class="form-popup" id="formPopup">
-                    <div class="form-popup__content">
-                        <button class="form-popup__close" id="closeFormBtn" aria-label="Закрыть">&times;</button>
-                        <p class="form-popup__title">Заказать обратный звонок</p>
-                        <form id="callbackForm" class="callback-form">
-                            <label class="callback-form__label">
-                            Ваше имя
-                            <input type="text" name="name" class="callback-form__input" placeholder="Иван" required>
-                            </label>
-
-                            <label class="callback-form__label">
-                            Телефон
-                            <input type="tel" name="phone" class="callback-form__input" placeholder="+7 (___) ___-__-__" required>
-                            </label>
-
-                            <button type="submit" class="callback-form__submit blick-animation">Отправить</button>
-                            <small style="font-size: small;">Нажимая на кнопку, вы соглашаетесь на обратботку персональных данных</small>
-                        </form>
-                        <p class="callback-form__success" id="successMessage" hidden>Спасибо! Мы перезвоним вам в ближайшее время.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="intro_img">
-                <img src="images/main_pic.png" alt="ОБУЧЕНИЕ ПИЛАТЕС">
-            </div>
+        <div class="about-image reveal reveal-delay-2">
+          <img src="https://images.unsplash.com/photo-1599901860904-17e6ed7083a0?w=800&q=80" alt="Занятия пилатесом в студии" loading="lazy">
         </div>
-        <img src="images/Ellipse 1.png" alt="эллипс1" class="ellipse ellipse_one">
-        <img src="images/Ellipse 2.png" alt="эллипс2" class="ellipse ellipse_two">
-        <img src="images/Ellipse 3.png" alt="эллипс3" class="ellipse ellipse_three">
-        <img src="images/Ellipse 4.png" alt="эллипс4" class="ellipse ellipse_four">
-        <img src="images/Ellipse 5.png" alt="эллипс5" class="ellipse ellipse_five">
-        <img src="images/Ellipse 6.png" alt="эллипс6" class="ellipse ellipse_six">
-        <img src="images/Ellipse 7.png" alt="эллипс7" class="ellipse ellipse_seven">
-        <img src="images/Ellipse 8.png" alt="эллипс8" class="ellipse ellipse_eight">
-    </section>
+      </div>
+    </div>
+  </section>
 
-    <section class="about" id="idElement1">
-        <div class="container">
-            <div class="text_about">
-                <h2>О нашей компании</h2>
-                <p>Наша академия обучает пилатесу, приглашая на курсы как новичков, так и опытных инструкторов. Учебная программа включает теоретические занятия по истории и принципам метода, а также практическую подготовку. Современное оборудование и методы обеспечивают нашим студентам максимальную пользу от обучения.</p>
-            </div>
-            <div class="img_about">
-                <img src="images/about_pic.png" alt="О нашей компании">
-            </div>
+  <!-- ===== ЭТАПЫ КУРСА ===== -->
+  <section>
+    <div class="float-element float-2"></div>
+    <div class="container">
+      <h2 class="reveal">Этапы курса пилатес</h2>
+      <div class="grid-3">
+        <div class="card reveal reveal-delay-1">
+          <div class="card-number">1</div>
+          <h3>Оформляете доступ</h3>
+          <p>Вы можете оплатить всю сумму сразу или оформить рассрочку банков Тинькофф и Почта-Банк на срок 6 месяцев.</p>
         </div>
-    </section>
-
-    <section class="steps">
-        <h2>Этапы курса пилатес</h2>
-        <div class="container">
-            <div class="step">
-                <span class="number">1</span>
-                <span class="title">Оформляете доступ</span>
-                <p>Вы можете оплатить всю сумму сразу или оформить рассрочку банков Тинькофф и Почта-Банк на срок 6 месяцев.</p>
-            </div>
-            <div class="step">
-                <span class="number">2</span>
-                <span class="title">Изучаете видеоуроки</span>
-                <p>Вы можете это делать в любое удобное время в том темпе, который комфортен именно вам.</p>
-            </div>
-            <div class="step">
-                <span class="number">3</span>
-                <span class="title">Выполняете задания</span>
-                <p>После каждого раздела есть задания для самостоятельного выполнения, которые помогут отработать  навыки.</p>
-            </div>
+        <div class="card reveal reveal-delay-2">
+          <div class="card-number">2</div>
+          <h3>Изучаете видеоуроки</h3>
+          <p>Вы можете это делать в любое удобное время в том темпе, который комфортен именно вам.</p>
         </div>
-    </section>
-
-    <section class="price">
-        <div class="container">
-            <h2>Стоимость обучения пилатес</h2>
-            <div class="card">
-                <span class="card_name">Курс Пилатес</span>
-                <ul class="card-list">
-                    <li>Круглосуточный доступ в личный кабинет для прохождения материала</li>
-                    <li>Удостоверение после полного прохождения курса</li>
-                    <li>Срок прохождения - 2 месяца</li>
-                    <li>Старт в любой удобный день после совершения оплаты</li>
-                    <li>Поддержка администраторов</li>
-                </ul>
-                <div class="card-footer">
-                    <span class="price-label">Стоимость</span>
-                    <span class="price-value">16 000 руб</span>
-                </div>
-                <a href="#" class="featured_btn blick-animation">Оплатить полностью</a>
-            </div>
+        <div class="card reveal reveal-delay-3">
+          <div class="card-number">3</div>
+          <h3>Выполняете задания</h3>
+          <p>После каждого раздела есть задания для самостоятельного выполнения, которые помогут отработать навыки.</p>
         </div>
-    </section>
+      </div>
+    </div>
+  </section>
 
+  <div class="image-band">
+    <div class="image-band-bg" id="bandBg"></div>
+    <div class="image-band-overlay"></div>
+    <div class="image-band-content">
+      <div class="container">
+        <h2 class="reveal">Гармония тела и разума</h2>
+      </div>
+    </div>
+  </div>
 
-    <section class="features">
-        <div class="container">
-            <h2>Почему учиться нужно у нас?</h2>
-            <div class="wrap">
-                <div class="feature">
-                    <div>
-                        <img src="images/tick.png" alt="преимущество">
-                        <span class="title">Государственный диплом об образовании.</span>
-                    </div>
-                    <p>Мы являемся лицензированным обучающим центром, прошедшим Государственную аккредитацию и соответствующим стандартам образовательного центра профессиональной переподготовки. Регистрационный номер лицензии: No Л035-01298-77/00649334</p>
-                </div>
-                <div  class="feature">
-                    <div>
-                        <img src="images/tick.png" alt="преимущество">
-                        <span class="title">Обучение очно и онлайн.</span>
-                    </div>
-                    <p>Вы можете выбрать любой удобный формат обучения – очно или онлайн. Удобная онлайн платформа с обучающими видео и комментариями эксперта. Возможность дистанционного обучения и сдачи экзамена онлайн.</p>
-                </div>
-            </div>
-            <div class="wrap">
-                <div class="feature">
-                    <div>
-                        <img src="images/tick.png" alt="преимущество">
-                        <span class="title">Опыт более 20 лет.</span>
-                    </div>
-                    <p>Обучение проводят сертифицированные эксперты с более чем 20-ти летним опытом преподавания в сфере фитнеса.</p>
-                </div>
-                <div  class="feature">
-                    <div>
-                        <img src="images/tick.png" alt="преимущество">
-                        <span class="title">Теория и практика.</span>
-                    </div>
-                    <p>Мы уделяем большое внимание не только обучению теоретическому материалу, но и формированию практических навыков преподавания и тренировки.</p>
-                </div>
-            </div>
+  <section>
+    <div class="container">
+      <h2 class="reveal">Стоимость обучения пилатес</h2>
+      <div class="grid-2">
+        <div class="price-block reveal reveal-delay-1">
+          <span class="accent-text" style="text-transform: uppercase; letter-spacing: 1px; font-size: 0.9rem;">Курс</span>
+          <h3 style="font-size: 2.4rem; margin: 8px 0 16px;">Пилатес</h3>
+          <div class="price-tag">18.000 руб</div>
+          <ul>
+            <li>Круглосуточный доступ в личный кабинет для прохождения материала</li>
+            <li>Удостоверение после полного прохождения курса</li>
+            <li>Срок прохождения — 2 месяца</li>
+            <li>Старт в любой удобный день после совершения оплаты</li>
+            <li>Поддержка администраторов</li>
+          </ul>
+          <a href="#" class="btn" style="width: 100%; text-align: center;">Оставить заявку</a>
         </div>
-    </section>
-
-    <section class="cource_parts">
-        <div class="container">
-            <h2>Особенности курса пилатес</h2>
-            <div class="wrap">
-                <div class="blocks">
-                    <div class="block">
-                        <span>ЭКСПЕРТНОСТЬ</span>
-                        <p>Валерия Василенко является действующим преподавателем и тренером в Европе, что позволяет гарантировать высокий уровень подачи.</p>
-                    </div>
-                    <div class="block">
-                        <span>ВИДЕО</span>
-                        <p>Вас ждет более 10 часов видеоуроков, в которых разобраны принципы пилатес, особенности данного направления и упражнения.</p>
-                    </div>
-                    <div class="block">
-                        <span>НАГЛЯДНОСТЬ</span>
-                        <p>В курсе каждое упражнение разбирается максимально подробно. Демонстрируются его модификации и нюансы выполнения.</p>
-                    </div>
-                </div>
-                <div class="img">
-                    <img src="images/woman-stratching.png" alt="Особенности курса пилатес">
-                </div>
-            </div>
+        <div style="display: flex; flex-direction: column; justify-content: center; padding: 20px 0;" class="reveal reveal-delay-2">
+          <h3 style="font-size: 2rem; margin-bottom: 24px;">Гибкие условия</h3>
+          <p style="color: #4a4a4a; font-size: 1.1rem; margin-bottom: 24px;">Рассрочка на 6 месяцев от банков Тинькофф и Почта-Банк. Оплата всей суммы сразу или частями — выбор за вами.</p>
+          <p style="color: #4a4a4a; font-size: 1.1rem;">Старт обучения в любой удобный день после оплаты. Доступ к материалам — круглосуточно.</p>
         </div>
-    </section>
+      </div>
+    </div>
+  </section>
 
-
-    <section class="reviews" id="idElement3">
-        <div class="container">
-            <h2>Отзывы о курсе</h2>
-            <div class="wrap">
-                <div class="review">              
-                    <span class="title">Елена</span>
-                    <p>Пилатес стал для меня настоящим открытием! После нескольких занятий я заметила улучшение осанки и значительное снижение болей в спине. Тренировки не слишком изнурительные, но в то же время медленно строят силу и укрепляют мышцы. Определенно рекомендую тем, кто ищет мягкий, но эффективный подход к фитнесу.</p>
-                </div>
-                <div  class="review">
-                    <span class="title">Дмитрий</span>
-                    <p>Поначалу я был скептически настроен к пилатесу, но решил попробовать и не пожалел! Эти тренировки помогли мне почувствовать себя более энергичным и гибким. К тому же, пилатес отлично расслабляет после напряженного дня. Инструкторы очень внимательные и профессиональные, что добавляет уверенности в процессе занятий.</p>
-                </div>
-            </div>
-            <div class="wrap">
-                <div class="review">
-                    <span class="title">Марина</span>
-                    <p>Занимаясь пилатесом, я не только укрепила мышцы, но и улучшила координацию. Эти упражнения оказались не такими легкими, как кажутся на первый взгляд, но они точно стоят усилий. Особенно нравятся занятия с использованием специальных реформеров — это приносит еще больше пользы и разнообразия.</p>
-                </div>
-                <div  class="review">
-                    <span class="title">Сергей</span>
-                    <p>Для меня пилатес стал настоящим спасением от стресса. Упражнения помогают сосредоточиться, улучшить дыхание и развить гибкость. Несмотря на кажущуюся простоту, это невероятно эффективная система тренировок. Чувствую, что после каждого занятия мой организм становится сильнее и здоровее.</p>
-                </div>
-            </div>
+  <section>
+    <div class="container">
+      <h2 class="reveal">Почему учиться нужно у нас?</h2>
+      <div class="grid-4">
+        <div class="card reveal reveal-delay-1" style="padding: 40px 32px;">
+          <h3 style="font-size: 1.3rem;">Государственный диплом об образовании</h3>
+          <p>Мы являемся лицензированным обучающим центром, прошедшим Государственную аккредитацию и соответствующим стандартам образовательного центра профессиональной переподготовки. Регистрационный номер лицензии: № Л035-01298-77/00649334</p>
         </div>
-    </section>
-
-    <section class="faqs">
-        <div class="container">
-            <h2>Ответы на частые вопросы</h2>
-            <div class="wrap">
-                <div class="faq">              
-                    <span class="title">Какой документ вы получите?</span>
-                    <p>В конце курса инструктора по пилатес вы получите сертификат о прохождении, а если у вас есть диплом тренера, то и удостоверение о повышении квалификации по программе "тренировки по системе пилатес" с внесением в ФИС ФРДО.</p>
-                </div>
-                <div  class="faq">
-                    <span class="title">В чем отличие курса от аналогов?</span>
-                    <p>Курс инструктора пилатес очень подробно раскрывает материал, а кроме того содержит задания и тесты.Задания в данном фитнес обучении позволяют не просто посмотреть и забыть большую часть материала, а приобрести реальные навыки и устранить недочеты.Тесты помогают лучше усвоить материал, избегая ложных представлений и перенося ошибки понимания на реальную работу с клиентами.</p>
-                </div>
-            </div>
-            <div class="wrap">
-                <div  class="faq">
-                    <span class="title">Почему стоит выбрать именно нас?</span>
-                    <p>Все просто - мы ставим во главу угла результат и готовы тратить на это силы.Тогда как многие наши коллеги предпочитают просто продать вам доступ к видео, мы стремимся достичь роста ваших показателей или удовлетворенности ваших клиентов.Кроме того, мы видим своей миссией развитие профессионализма фитнес тренеров, а не обычную продажу им "интересных видео".</p>
-                </div>
-                <div  class="faq">
-                    <span class="title">Почему стоит выбрать именно нас?</span>
-                    <p>Все просто - мы ставим во главу угла результат и готовы тратить на это силы.Тогда как многие наши коллеги предпочитают просто продать вам доступ к видео, мы стремимся достичь роста ваших показателей или удовлетворенности ваших клиентов.Кроме того, мы видим своей миссией развитие профессионализма фитнес тренеров, а не обычную продажу им "интересных видео".</p>
-                </div>
-            </div>
+        <div class="card reveal reveal-delay-2" style="padding: 40px 32px;">
+          <h3 style="font-size: 1.3rem;">Обучение очно и онлайн</h3>
+          <p>Вы можете выбрать любой удобный формат обучения – очно или онлайн. Удобная онлайн платформа с обучающими видео и комментариями эксперта. Возможность дистанционного обучения и сдачи экзамена онлайн.</p>
         </div>
-    </section>
-
-    <section class="owner">
-        <div class="container">
-            <div class="card">
-                <div class="list">
-                    <p class="h2">Елена Васильева</p>
-                    <ul>
-                        <li>Презентор крупнейших российских и мировых конвенций</li>
-                        <li>Высшее педагогическое образование</li>
-                        <li>Сертифицирована Академией Медицинской Кинезиологии и Мануальной Терапии</li>
-                        <li>Сертифицированный (Международным Альянсом Pilates Method Alliance) тренер</li>
-                    </ul>
-                </div>
-                <div class="photo">
-                    <img src="images/owner.png" alt="Елена Васильева">
-                </div>
-            </div>
+        <div class="card reveal reveal-delay-3" style="padding: 40px 32px;">
+          <h3 style="font-size: 1.3rem;">Опыт более 20 лет</h3>
+          <p>Обучение проводят сертифицированные эксперты с более чем 20-ти летним опытом преподавания в сфере фитнеса.</p>
         </div>
-    </section>
-
-
-    <section class="courses-section">
-        <div class="container">
-            <div class="courses-content">
-                <div class="courses-info">
-                    <h2>Ближайшие курсы</h2>
-                    <p style="margin: 10px 0px;">Текущая дата и время: <span id="current-date"></span></p>
-                    <ul>
-                    <li>26.02.2025 - Pilates mat, базовый курс</li>
-                    <li>28.01.2025 - Pilates mat, средний уровень</li>
-                    <li>17.03.2025 и 19.03.2025 - Pilates reformer, базовый уровень</li>
-                    <li>21.03-5.02 и 22.03.2025 - Pilates reformer, средний уровень</li>
-                    </ul>
-                </div>
-                <form class="application-form">
-                    <p class="form-title">Оставьте заявку на обучение</p>
-                    <p>Познакомьтесь со школой и получите бесплатную консультацию</p>
-                    <input type="text" placeholder="Имя">
-                    <input type="email" placeholder="Email">
-                    <input type="tel" placeholder="Телефон">
-                    <button type="submit" class="blick-animation">Отправить</button>
-                    <small>Нажимая кнопку отправить вы соглашаетесь с политикой конфиденциальности</small>
-                </form>
-            </div>
+        <div class="card reveal reveal-delay-4" style="padding: 40px 32px;">
+          <h3 style="font-size: 1.3rem;">Теория и практика</h3>
+          <p>Мы уделяем большое внимание не только обучению теоретическому материалу, но и формированию практических навыков преподавания и тренировки.</p>
         </div>
-    </section>
+      </div>
+    </div>
+  </section>
 
-
-    <footer class="footer" id="idElement2">
-        <div class="container">
-            <div class="footer-inner">
-                <div class="footer-section">
-                    <h3 class="footer-title">КУРСЫ</h3>
-                    <ul class="footer-list">
-                        <li><a href="#">Базовый курс тренера</a></li>
-                        <li><a href="#">Персональный коучинг</a></li>
-                        <li><a href="#">Архитектура тела</a></li>
-                        <li><a href="#">Обучение пилатес</a></li>
-                        <li><a href="#">Тренировки с беременными</a></li>
-                        <li><a href="#">Вебинары и мини-курсы</a></li>
-                        <li><a href="#">Тренировки на нестабильных поверхностях (BOSU)</a></li>
-                        <li><a href="#">Мобильность нижнего квадранта</a></li>
-                        <li><a href="#">Тренировки при болях в спине</a></li>
-                        <li><a href="#">Работа с нарушениями осанки</a></li>
-                        <li><a href="#">Работа с вальгусом стоп</a></li>
-                        <li><a href="#">Онлайн-обучение для тренеров по долголетию</a></li>
-                    </ul>
-                </div>
-            
-                <div class="footer-section">
-                    <h3 class="footer-title">Контакты</h3>
-                    <div class="footer-contacts">
-                        <a href="tel:+79991234567">+7 999 123-45-67</a>
-                        <a href="mailto:ivan.ivanov@example.com">ivan.ivanov@example.com</a>
-                    </div>
-                    <div class="social-links">
-                        <a href="#">
-                            <img src="images/yt.png" alt="YouTube">
-                        </a>
-                        <a href="#">
-                            <img src="images/wa.png" alt="WhatsApp">
-                        </a>
-                        <a href="#">
-                            <img src="images/tg.png" alt="Telegram">
-                        </a>
-                        <a href="#">
-                            <img src="images/vk.png" alt="VK">
-                        </a>
-                    </div>
-                </div>
-            </div>
+  <section>
+    <div class="container">
+      <h2 class="reveal">Особенности курса пилатес</h2>
+      <div class="grid-3">
+        <div class="card reveal reveal-delay-1">
+          <div class="card-number" style="font-size: 1.2rem; letter-spacing: 2px; margin-bottom: 16px; color: #b99a7b;">ЭКСПЕРТНОСТЬ</div>
+          <p>Валерия Василенко является действующим преподавателем и тренером в Европе, что позволяет гарантировать высокий уровень подачи.</p>
         </div>
-    </footer>
-    
-    <script src="scripts/script.js"></script>
+        <div class="card reveal reveal-delay-2">
+          <div class="card-number" style="font-size: 1.2rem; letter-spacing: 2px; margin-bottom: 16px; color: #b99a7b;">ВИДЕО</div>
+          <p>Вас ждет более 10 часов видеоуроков, в которых разобраны принципы пилатес, особенности данного направления и упражнения.</p>
+        </div>
+        <div class="card reveal reveal-delay-3">
+          <div class="card-number" style="font-size: 1.2rem; letter-spacing: 2px; margin-bottom: 16px; color: #b99a7b;">НАГЛЯДНОСТЬ</div>
+          <p>В курсе каждое упражнение разбирается максимально подробно. Демонстрируются его модификации и нюансы выполнения.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <h2 class="reveal">Отзывы о курсе</h2>
+      <div class="grid-2">
+        <div class="review-card reveal reveal-delay-1">
+          <div class="quote-mark">"</div>
+          <div class="name">Елена</div>
+          <p class="text">Пилатес стал для меня настоящим открытием! После нескольких занятий я заметила улучшение осанки и значительное снижение болей в спине. Тренировки не слишком изнурительные, но в то же время медленно строят силу и укрепляют мышцы. Определенно рекомендую тем, кто ищет мягкий, но эффективный подход к фитнесу.</p>
+        </div>
+        <div class="review-card reveal reveal-delay-2">
+          <div class="quote-mark">"</div>
+          <div class="name">Дмитрий</div>
+          <p class="text">Поначалу я был скептически настроен к пилатесу, но решил попробовать и не пожалел! Эти тренировки помогли мне почувствовать себя более энергичным и гибким. К тому же, пилатес отлично расслабляет после напряженного дня. Инструкторы очень внимательные и профессиональные, что добавляет уверенности в процессе занятий.</p>
+        </div>
+        <div class="review-card reveal reveal-delay-3">
+          <div class="quote-mark">"</div>
+          <div class="name">Марина</div>
+          <p class="text">Занимаясь пилатесом, я не только укрепила мышцы, но и улучшила координацию. Эти упражнения оказались не такими легкими, как кажутся на первый взгляд, но они точно стоят усилий. Особенно нравятся занятия с использованием специальных реформеров — это приносит еще больше пользы и разнообразия.</p>
+        </div>
+        <div class="review-card reveal reveal-delay-4">
+          <div class="quote-mark">"</div>
+          <div class="name">Сергей</div>
+          <p class="text">Для меня пилатес стал настоящим спасением от стресса. Упражнения помогают сосредоточиться, улучшить дыхание и развить гибкость. Несмотря на кажущуюся простоту, это невероятно эффективная система тренировок. Чувствую, что после каждого занятия мой организм становится сильнее и здоровее.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <h2 class="reveal">Ответы на частые вопросы</h2>
+      <div class="faq-item reveal">
+        <h3>Какой документ вы получите?</h3>
+        <p>В конце курса инструктора по пилатес вы получите сертификат о прохождении, а если у вас есть диплом тренера, то и удостоверение о повышении квалификации по программе "тренировки по системе пилатес" с внесением в ФИС ФРДО.</p>
+      </div>
+      <div class="faq-item reveal">
+        <h3>В чем отличие курса от аналогов?</h3>
+        <p>Курс инструктора пилатес очень подробно раскрывает материал, а кроме того содержит задания и тесты. Задания в данном фитнес обучении позволяют не просто посмотреть и забыть большую часть материала, а приобрести реальные навыки и устранить недочеты. Тесты помогают лучше усвоить материал, избегая ложных представлений и перенося ошибки понимания на реальную работу с клиентами.</p>
+      </div>
+      <div class="faq-item reveal">
+        <h3>Почему стоит выбрать именно нас?</h3>
+        <p>Все просто — мы ставим во главу угла результат и готовы тратить на это силы. Тогда как многие наши коллеги предпочитают просто продать вам доступ к видео, мы стремимся достичь роста ваших показателей или удовлетворенности ваших клиентов. Кроме того, мы видим своей миссией развитие профессионализма фитнес тренеров, а не обычную продажу им "интересных видео".</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="expert reveal">
+        <div class="expert-image">
+          <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&q=80" alt="Елена Васильева — эксперт по пилатесу" loading="lazy">
+        </div>
+        <div class="expert-info">
+          <h3>Елена Васильева</h3>
+          <ul>
+            <li>Презентор крупнейших российских и мировых конвенций</li>
+            <li>Высшее педагогическое образование</li>
+            <li>Сертифицирована Академией Медицинской Кинезиологии и Мануальной Терапии</li>
+            <li>Сертифицированный (Международным Альянсом Pilates Method Alliance) тренер</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== БЛИЖАЙШИЕ КУРСЫ ===== -->
+  <section>
+    <div class="container">
+      <div class="flex-between mb-24">
+        <h2 style="margin-bottom: 0;" class="reveal">Ближайшие курсы</h2>
+        <span style="color: #8f8a84; font-size: 0.95rem;" class="reveal reveal-delay-1">Текущая дата: 24/09/2026, 17:10:21</span>
+      </div>
+      <div class="schedule-list">
+        <div class="schedule-item reveal reveal-delay-1">
+          <span class="date">26.02.2025</span>
+          <span>Pilates mat, базовый курс</span>
+        </div>
+        <div class="schedule-item reveal reveal-delay-2">
+          <span class="date">28.01.2025</span>
+          <span>Pilates mat, средний уровень</span>
+        </div>
+        <div class="schedule-item reveal reveal-delay-3">
+          <span class="date">17.03.2025 и 19.03.2025</span>
+          <span>Pilates reformer, базовый уровень</span>
+        </div>
+        <div class="schedule-item reveal reveal-delay-4">
+          <span class="date">21.03–5.02 и 22.03.2025</span>
+          <span>Pilates reformer, средний уровень</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ЗАЯВКА ===== -->
+  <section style="border-bottom: none; padding-bottom: 120px;">
+    <div class="container">
+      <div class="form-block reveal">
+        <h2>Оставьте заявку на обучение</h2>
+        <p class="subhead" style="text-align: center; margin-left: auto; margin-right: auto;">Познакомьтесь со школой и получите бесплатную консультацию</p>
+        <div class="form-group">
+          <input type="text" placeholder="Ваше имя">
+          <input type="email" placeholder="Email или телефон">
+        </div>
+        <a href="#" class="btn" style="width: 100%; max-width: 500px; margin: 0 auto; display: block;">Отправить</a>
+        <p class="form-note">Нажимая кнопку отправить, вы соглашаетесь с политикой конфиденциальности</p>
+      </div>
+    </div>
+  </section>
+
+  <script src="scripts/script.js"></script>
+
 </body>
 </html>
